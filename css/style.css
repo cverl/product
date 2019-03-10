@@ -1,0 +1,105 @@
+body{
+  background-color: #eee;
+  font-family: Helvetica;
+}
+
+#header {
+  overflow: hidden;
+  background-color: #eee;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  width: 95%;
+}
+
+#header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
+  font-size: 17px; 
+  line-height: 5px;
+  border-radius: 4px;
+}
+
+#header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#nav-bar {
+  float: right;
+}
+
+button{
+  background-color: #FFCC33;
+  padding: 5px 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.middle{
+  text-align: left;
+  margin-left: 300px;
+}
+
+
+
+.main{
+  margin-top: 100px;
+  text-align: center;
+}
+
+p{
+  margin-top: -20px;
+  width: 800px;
+}
+
+#tenor,#bass,#valve{
+  width: 100px;
+  height: 300px;
+  
+}
+
+
+
+
+
+.flex-container{
+  display:flex;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;}
+  
+#tenor, #bass, #valve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    
+}
+    
+.level {
+      background-color: #ddd;
+      color: black;
+      padding: 15px 0;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    
+    
+footer{
+  text-align: right;
+}
